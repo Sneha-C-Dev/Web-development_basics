@@ -39,3 +39,11 @@ HTML, which stands for HyperText Markup Language, is the foundational language o
 ```html
 <a href="https://www.google.com/">Click here</a>
 ```
+### _HTML Images_
+```html
+<img src="https://www.tarento.com/images/common/logo.png" alt="Tarento logo">
+```
+You can also add attributes like height and width.
+
+### __
+
