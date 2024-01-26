@@ -5,11 +5,13 @@ HTML, which stands for HyperText Markup Language, is the foundational language o
 ### _Structure of html document:_
 ```
 <!DOCTYPE HTML>
+<html>
 <head>
 <title> ... </title>
 </head>
 <body>
   ...
 </body>
+<\html>
 ```
 hello
