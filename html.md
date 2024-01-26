@@ -78,3 +78,13 @@ You can also add attributes like height and width.
  <li> Mango </li>
 </ul>
 ```
+#### * Nested List
+```html
+<ul>
+ <li> Apple </li>
+ <li> <ol> Orange </ol>
+      <ol> Lemon </ol>
+ </li>
+ <li> Mango </li>
+</ul>
+```
