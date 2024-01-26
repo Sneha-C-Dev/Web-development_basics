@@ -45,5 +45,36 @@ HTML, which stands for HyperText Markup Language, is the foundational language o
 ```
 You can also add attributes like height and width.
 
-### __
+### _HTML Table_
+```html
+<table border = 1>
+ <tr>
+  <th> Sl.no </th>
+  <th> Name </th>
+  <th> Age </th>
+ </tr>
+ <tr>
+  <td> 1 </td>
+  <td> Abi </td>
+  <td> 20 </td>
+ </tr>
+</table>
+```
+### _HTML List_
 
+#### * Ordered List
+```html
+<ol>
+ <li> Orange </li>
+ <li> Mango </li>
+ <li> Apple </li>
+</ol>
+```
+#### * Unordered List
+```html
+<ul>
+ <li> Apple </li>
+ <li> Orange </li>
+ <li> Mango </li>
+</ul>
+```
