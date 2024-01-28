@@ -1,6 +1,7 @@
 # JavaScrit Form Handling
 
-```js
+```html
+
 <!DOCTYPE html>
 <html>
     <head>
