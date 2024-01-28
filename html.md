@@ -35,6 +35,10 @@ HTML, which stands for HyperText Markup Language, is the foundational language o
   <p> ... </p>
 </body>
 ```
+### _Break_
+```html
+<p>line with a <br> break. </p>
+```
 ### _HTML links_
 ```html
 <a href="https://www.google.com/">Click here</a>
@@ -65,7 +69,7 @@ You can also add attributes like height and width.
 #### * Ordered List
 ```html
 <ol>
- <li> Orange </li>
+ <li> Orange </li> 
  <li> Mango </li>
  <li> Apple </li>
 </ol>
@@ -88,3 +92,49 @@ You can also add attributes like height and width.
  <li> Mango </li>
 </ul>
 ```
+### _Form_
+```html
+   <form>
+     <h1>Login Page</h1>
+            <label>First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Eg:John"><br><br>
+            <label>Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br>        
+            <label>Gender:</label><br>
+
+            <input type="radio" name="gender" value="male" >
+            <label>Male</label><br>
+            <input type="radio" name="gender" value="female">
+            <label>Female</label><br>
+            <input type="radio" name="gender" value="others">
+            <label>Others</label><br><br>
+
+            <label>Colours you prefer:</label><br>
+            <input type="checkbox" name="color" value="red" >
+            <label>Red</label><br>
+            <input type="checkbox" name="color" value="green">
+            <label>Green</label><br>
+            <input type="checkbox" name="color" value="yellow">
+            <label>Yellow</label><br>
+            <input type="checkbox" name="color" value="black">
+            <label>Black</label><br>
+            <input type="checkbox" name="color" value="blue">
+            <label>Blue</label><br>
+            <input type="checkbox" name="color" value="white">
+            <label>White</label><br><br>
+
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"><br><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label>Userame:</label>
+            <input type="text" id="uname" name="uname"><br><br>
+            <label>Password:</label>
+            <input type="password" id="pwd" name="pwd"><br><br>
+            <input type="button" onclick="alert('Hello World!')" value="Click me!">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+
+    </form>
+```
+
