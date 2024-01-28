@@ -138,3 +138,70 @@ You can also add attributes like height and width.
     </form>
 ```
 
+# CSS
+```css
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("bg.jpg");
+    background-image:cover;
+    background-position: center;
+}
+
+#loginForm{
+    background-color: rgb(255, 255, 255);
+    max-width:400px;
+    margin:50px auto;
+    opacity: 0.8;
+    border-color: brown;
+    border-radius: 8px;
+    padding:20px ;
+}
+
+h1{
+    text-align:center;
+    color:#333333;
+    
+}
+
+
+label{
+   
+    color:#555555;
+}
+
+
+input{
+    padding:4px;
+    margin-top:4px;
+    margin-bottom:10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.submitButton, .resetButton{
+    background-color: #2b787c;
+    color: #fff;
+    padding: 10px 15px;
+    border-style: dotted;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submitButton:hover{
+    background-color: green;
+    color:white;
+}
+.resetButton:hover{
+    background-color:red;
+    color:white;
+}
+```
+
