@@ -139,6 +139,140 @@ You can also add attributes like height and width.
 ```
 
 # CSS
+
+CSS (Cascading Style Sheets) is a styling language used to describe the presentation of a document written in HTML. It allows you to control the layout, colors, fonts, and other visual aspects of your web pages. Below is basic documentation for CSS:
+
+### Selector: Selectors target HTML elements to apply styles.
+#### _1. Element Selector_
+```css
+p {
+  color: blue;
+}
+```
+#### _2. Class Selector_
+```css
+.highlight {
+  background-color: yellow;
+}
+```
+#### _3. ID Selector_
+```css
+#header {
+  font-size: 24px;
+}
+```
+### Properties and Values
+
+CSS properties define the style, and values specify how the style should be applied.
+```css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+```
+### Comments
+```css
+/* This is a comment in CSS */
+```
+
+### CSS Box Model
+Every HTML element can be considered as a box. The box model comprises the content, padding, border, and margin. Every HTML element can be considered as a box. The box model comprises the content, padd.
+
+* Content: Actual content of the box.
+* Padding: Clears an area around the content inside the box.
+* Border: A border surrounding the padding.
+* Margin: Clears an area outside the border.
+```css
+.box {
+  width: 200px;
+  height: 150px;
+  padding: 20px;  border: 2px solid #333;
+  margin: 10px;
+}
+```
+
+### CSS Colors
+You can define colors using various formats such as names, hex codes, RGB, RGBA, etc.
+
+#### _RGB Value:_
+* rgb(red, green, blue)
+* rgb(255, 0, 0) for red, rgb(0, 0, 255) for blue.
+* rgba(red,green,blue,alpha) for adjusting opacity. Opacity varies from 0 to 1.
+
+#### _HEX Value:_
+* #rrggbb where rr, gg, and bb are hexadecimal values (00 to ff).
+* #ff6347 for red-orange, #6a5acd for slate blue
+* 3 digit hex is a shorthand
+  Eg: #f00 for red
+
+#### _HSL Values:_
+* hsl(hue, saturation, lightness)
+* Hue (0 to 360), Saturation (0% to 100%), Lightness (0% to 100%).
+  Example: hsl(0, 100%, 50%) for pure red, hsl(240, 100%, 50%) for blue.
+
+### Background properties: 
+
+#### _Background color_
+```css
+ body{
+background-color:  white;
+}
+```
+
+#### _Background image_
+```css
+. body{
+background-image: url(“gun.jpg”);
+}
+```
+Properties are height, background-position, background-repeat,background-size, background-attachment etc 
+
+### Borders
+* border-style: Specifies the type of border like dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden.
+
+* border-width: Sets the width of the four borders. Values can be a specific size (e.g., px, pt, cm, em) or predefined values: thin, medium, thick
+
+* border-color: Set the color of border
+
+### Margin
+
+Used to create space around elements 
+outside defined borders.
+Individual side properties: margin-top, margin-right, margin-bottom, margin-left.
+
+* Values: auto (browser-calculated), length (px, pt, etc.), %, inherit.
+* Shorthand: margin: 25px 50px 75px 100px; (top, right, bottom, left).
+
+### Padding
+Generates space around an element's content inside defined borders. padding-top, padding-right, padding-bottom, padding-left.
+* Values: length (px, pt, etc.), %, inherit.
+ Padding is inside the element, affecting its content area. Use box-sizing: border-box; to include padding in element width.
+
+### Height and Width
+Used to set the height and width of an element.
+* Values: auto, length (px, cm, etc.), %, initial, inherit.
+Exclude padding, borders, and margins.
+CSS Max-width sets the maximum width of an element.Useful for responsive design.
+
+### Text
+* text-align: Sets horizontal alignment of text (left, right, center, justify).
+* Text Spacing:
+* text-indent: Specifies first-line indentation.
+* letter-spacing: Sets space between characters.
+* Line height: Specifies space between lines.
+* word-spacing: Sets space between words.
+
+### Forms 
+Use the width property to set the width of the input field.
+```css
+input[type=text] {
+             width: 100%;
+/*other properties*/
+         }
+
+```
+
 ```css
 body{
     font-family:Arial, Helvetica, sans-serif;
