@@ -1,3 +1,73 @@
+# JavaScript Basics
+
+## Array Declaration and Initialization:-
+```javascript
+var myArray = []; // Empty array
+var numbers = [1, 2, 3, 4]; // Array with initial values
+var fruits = new Array("apple", "banana", "orange"); // Using the Array constructor
+var grid = [[1,2,3],[4,5,6]];
+const mixedArray = ["apple", 3.14, true, {}, [1, 2, 3]]
+
+numbers[1] // Accesses the second element 
+grid[0][1];
+```
+
+## Object Declaration and Initialization:-
+```javascript
+const person = { name: "Alice", age: 30 };
+const myObject = new Object();
+
+Accessing Properties:
+person.name
+person["age"]
+
+Adding/Modifying Properties:
+person.city = "New York";
+
+Removing Properties:
+delete person.age;
+```
+### DOM Finding and Changing HTML Elements:-
+```javascript
+const inputText = document.getElementById("userInput").value;
+const outputParagraph = document.getElementById("output");
+outputParagraph.innerHtml = "You entered: " + inputText;
+```
+
+### ES6 Updates:-
+
+#### _Arrow Functions:_
+```javascript
+const sum = (a, b) => a + b; 
+```
+#### _Classes:_
+```javascript
+class Person { 
+constructor(name) { this.name = name; } 
+}
+```
+#### _Let and Const:_
+```javascript
+ for (let i = 0; i < 3; i++) {}
+	const PI = 3.14159;
+```
+#### _Modules:_
+```javascript
+import greet from "./greet.js";
+```
+#### _Promises:_
+```javascript
+return new Promise((resolve, reject) => {
+        resolve("File downloaded successfully!");
+        reject("Download failed!");
+  });
+```
+#### _New Array Methods:_
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+const squares = numbers.map((number) => number * number);
+```
+
 # JavaScrit Form Handling
 
 ```html
